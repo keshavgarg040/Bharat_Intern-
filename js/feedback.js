@@ -38,8 +38,8 @@ feedbackBackBtn.addEventListener("click", () => {
 function shareFeedbackMail(msg) {
   Email.send({
     SecureToken: "cea665f0-f786-4cee-b1b8-fd14858636d1",
-    To: "prasantpoddar27@gmail.com",
-    From: "prasantpoddar27@gmail.com",
+    To: "keshavgarg040@gmail.com",
+    From: "keshavgarg040@gmail.com",
     Subject: "PMS Project Feedback",
     Body: msg,
   }).then((message) => alert(message));
